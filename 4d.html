@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html>    
+<script>       
+var c=0;      
+function fun() 
+{       if(c==0)      
+{ 
+document.body.style.backgroundColor = "cyan";        document.getElementById("id1").innerHTML="Fill your cone";        document.getElementById("imag").src="https://th.bing.com/th/id/OIP.OfyqrMdODfAUArISGnMItQHaHa?pid=ImgDet&rs=1";        document.getElementById("link").innerHTML="Fill";       
+c=1;       
+}       
+else       
+{ 
+document.body.style.backgroundColor = "pink";        document.getElementById("id1").innerHTML="Eat your cone";        document.getElementById("imag").src="https://images.squarespace-cdn.com/content/v1/543fec0fe4b04bbe6d9f983a/1584649336334-B2B5KLBJM837FQYAT4O1/sugar_cone_2500px.jpg";        document.getElementById("link").innerHTML="Eat";        
+c=0; 
+} 
+} 
+</script> 
+<center> 
+    <h1 id="id1">Eat your cone</h1> 
+    <br><br> 
+    <img src="https://th.bing.com/th/id/OIP.OfyqrMdODfAUArISGnMItQHaHa?pid=ImgDet&rs=1" alt="Reload" height="300px" width="200px" id="imag">     <br> 
+    <a href="javascript:fun()" id="link">Eat</a> 
+</center> 
+</body> 
+</html> 
